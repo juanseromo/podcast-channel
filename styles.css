@@ -1,2 +1,46 @@
 @charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee3ee;
+}
+.grid {
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 10% 65% 7% 14%;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    gap: 1%;
+    
+    background-color: cadetblue;
+    border: solid chartreuse;
+    padding: 1% 0 0% 1%;
+  }
 
+div [class*="item-"] {
+    background-color: black;
+
+    font-size: 30px;
+    text-align: center;
+    color: chocolate;
+
+    border-color: white;
+    border-style: dotted;
+    border-width: 1px;
+  }
+
+.item-1 {;
+}
+.item-2 {;
+}
+.item-3 {}
+.item-4 {}
+.item-5 {}
+.item-6 {}
+.item-7 {}
+.item-8 {}
+.item-9 {}
+.item-10 {}
+.item-11 {;
+    grid-area: 4 / 1 / 5 / 6 ;
+}
