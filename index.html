@@ -4,53 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <style>
+            @import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+            </style>
     <title>My First Podcast Channel</title>
 </head>
 <body>
-    <div class="grid">
-        <div class="item-1"> The Podcast, of art and design
-        </div>
-        <div class="item-2">
-            <li><a href="">Historias</a></li>
-            <li><a href="">Artistas</a></li>
-            <li><a href="">Tendencias</a></li>
-            <li><a href="">Expos</a></li>
-            <li><a href="">Contacto</a></li>
-        </div>
-        <div class="item-3">
-            <input type="checkbox" id="btn-menu">
-            <label for="btn-menu"><img src="icon-menu.png" alt="menu"></label>
-        </div>
-        <div class="item-4"><ul>
-            
-        </ul>
-</div>
-        <div class="item-5"> </div>
-        <div class="item-6"></div>
-        <div class="item-7"></div>
-        <div class="item-8"></div>
-        <div class="item-9"><h5>Consigue mi libro "Los 10 hábitos del estudiante exitoso": https://www.letrame.com/autores/juanjesuspleguezuelos/
-            Instagram Historia del arte para selectividad: https://www.instagram.com/historiaarte.selectividad/
-            Twitter: @elprofeinquieto
-            Instagram: https://www.instagram.com/elprofesorinquieto/
-            Facebook: https://www.facebook.com/elprofesorinquieto/
-            Youtube: https://www.youtube.com/c/Elprofesorinquieto
-            Tiktok: @elprofesorinquieto</h5></div>
-        <div class="item-10"><h1>HISTORY OF ART</h1> <iframe src="https://open.spotify.com/embed-podcast/episode/5pTh22q0xfA3sdpMEZDGDy" width="100%" height="auto" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
-        <div class="item-11"></div>
-        <div class="item-12"></div>
-        <div class="item-13"></div>
-        <div class="item-14"></div>
-        <div class="item-15"></div>
-        <div class="item-16"></div>
-        <div class="item-17"></div>
-        <div class="item-18"></div>
-    </div>
+    <header>
+        <img src="./Images/arttimes-logo-02.jpg" alt="arttimes-logo" width="auto" height="auto">
+        <!--<h2>The Podcast, of art and design</h2> -->
+            <label for="toggle"><img src="./Images/icon-hamb-menu.png" alt="menu"></label>
+            <input type="checkbox" id="toggle">
+        <nav>
+            <ul>
+                <li><a href="#podcasts">Podcasts</a></li>
+                <li><a href="#obra-del-dia">Obra del Día</a></li>
+                <li><a href="#artworks">Artworks</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>    
+        </nav>
+    </header>
+       
+    <main>
+        <section class="artistas"> <h1>Podcasts Recientes <a name="integrantes"></a> </h1> <iframe src="https://open.spotify.com/embed-podcast/episode/5pTh22q0xfA3sdpMEZDGDy" width="auto" height="auto" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+            <iframe src="https://open.spotify.com/embed-podcast/episode/1j035iffEx95oRWPFqc87G" width="auto" height="auto" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/0hu6EihfWgCuBiTTyjrgec" width="auto" height="auto" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed-podcast/episode/4Hq6vFcRAZIUOeSyr3tzUT" width="auto" height="auto" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </section>
+    
+        <section class="obra"> <a name="obra-del-dia"></a>
+            <img src="/Images/feliks-stauvers-painting.jpg" alt="Feliks Stauvers Painting" width="410px" height="auto" >
+                <article>
+                        <h1> Obra del dia </h1>
+                        <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+                </article>
+        </section>
+        <section class="expos"> <h1>Artworks <a name="artworks"></a></h1> 
+            <figure class="expos-items"> <img src="/Images/galery/botero.jpg" alt="Fernando-Botero-Oil-Painting"> </figure>
+            <figure class="expos-items"> <img src="/Images/galery/ensor.jpg" alt="James-Ensor-Oil-Painting"> </figure>
+            <figure class="expos-items"> <img src="/Images/galery/freud.png" alt="Lucian-Freud-Oil-Painting"></figure>
+            <figure class="expos-items"> <img src="/Images/galery/IMG_0011.jpg" alt="Caravaggio-oil-painting"></figure>
+            <figure class="expos-items"> <img src="/Images/galery/IMG_0016.jpg" alt="Paris-Painting"> </figure>
+            <figure class="expos-items"> <img src="/Images/galery/jesus.png" alt="Jesus-old-painting"> </figure>
+            <figure class="expos-items"> <img src="/Images/galery/picasso.jpg" alt="Picasso-Cubism-painting"></figure>
+            <figure class="expos-items"> <img src="/Images/galery/rembrandt.jpg" alt="Rembrandt-oil-painting"> </figure>
+            <figure class="expos-items"> <img src="/Images/galery/sorolla.png" alt="Joaquin-Sorolla-Portrait-Study"> </figure>
+            <figure class="expos-items"> <img src="/Images/galery/ugly.png" alt="Iglyness-history-in-art"></figure>
+        
+        </section>
+    
+    </main>
+    <footer> <h1>contáctenos <a name="contacto"></a> </h1>
+    </footer>
 
-    <div>
-        https://podcasts.apple.com/co/podcast/ted-radio-hour/id523121474?l=en
-    </div>
 </body>
 </html>
