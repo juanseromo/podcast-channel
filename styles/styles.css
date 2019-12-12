@@ -106,14 +106,14 @@ section {
         margin-top: 50px;
         margin-bottom: 0px;
         padding-bottom: 100px;
-        background: url(./images/icon-menu.svg) repeat-x;
+        background: url(../images/icon-menu.svg) repeat-x;
         background-color: transparent;
         background-size: 100%;
     }    
     
 .obra {
     width: auto;
-    background: url(./images/icon-menu-mobile.svg) repeat center;
+    background: url(../images/icon-menu-mobile.svg) repeat center;
     background-color: transparent;
 } 
 .obra img {
@@ -133,11 +133,13 @@ section {
     margin: 5px;
     flex: auto;
     width: 300px;
+    height: 300px;
     
 }
 .expos-items img{
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 .expos h1 {
     display: block;
@@ -211,7 +213,7 @@ footer {
         margin: 1%;
     }
     .artistas {
-        background: url(./images/icon-menu-mobile.svg) repeat-x;
+        background: url(../images/icon-menu-mobile.svg) repeat-x;
         background-position-x: 50%;
         background-color: transparent;
     
