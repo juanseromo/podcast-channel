@@ -26,6 +26,10 @@ header{
 }
 header h2 {
     text-align: right;
+}
+header img {
+    width: 200px;
+    height: 100px;
 
 }
 label {
